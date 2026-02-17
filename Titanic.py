@@ -50,4 +50,4 @@ travel_details_df.to_sql("travel_details", engine, if_exists="append", index=Fal
 tickets_df.to_sql("tickets", engine, if_exists="append", index=False)
 age_df.to_sql("Age", engine, if_exists="append", index=False)
 
-print("✅ All tables refreshed successfully without duplicates!")
+print(" All tables refreshed successfully without duplicates!")
